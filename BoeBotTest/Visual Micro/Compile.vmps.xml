@@ -11,6 +11,7 @@
         <VCCodeMacro Name="__AVR_ATmega328P__" Value="" />
         <VCCodeMacro Name="PIN_SERVO_LEFT" Value="12" />
         <VCCodeMacro Name="F_CPU" Value="16000000L" />
+        <VCCodeMacro Name="PIN_SERVO_SONAR" Value="11" />
         <VCCodeMacro Name="__AVR__" Value="" />
         <VCCodeMacro Name="__cplusplus" Value="" />
         <VCCodeMacro Name="__attribute__" Value="" />
@@ -31,7 +32,7 @@
         <VCCodeMacro Name="NOINLINE" Value="__attribute__((noinline))" />
       </VCCodeMacros>
       <VCCodeVariables>
-        <VCCodeVariable Name="__offsetLeft" />
+        <VCCodeVariable Name="__ServoSonarMin" />
       </VCCodeVariables>
     </VCCodeModel>
   </Program>

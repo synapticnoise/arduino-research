@@ -27,6 +27,7 @@ extern "C" void __cxa_pure_virtual() {}
 //already defined in arduno.h
 //already defined in arduno.h
 void setSpeed(float left, float right);
+void aimSonar(int relativeDegrees);
 
 #include "C:\Program Files (x86)\arduino-1.0.2\hardware\arduino\variants\standard\pins_arduino.h" 
 #include "C:\Program Files (x86)\arduino-1.0.2\hardware\arduino\cores\arduino\arduino.h"
